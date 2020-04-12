@@ -7,7 +7,9 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Data
@@ -21,4 +23,6 @@ public class TourPackage implements Serializable {
     @Column
     private String name;
 
+    @OneToMany(mappedBy = "tourPackage")
+    private List<TourPackage> tourPackages;
 }

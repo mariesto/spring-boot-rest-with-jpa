@@ -2,10 +2,7 @@ package com.mariesto.exploration.springbootrestfulwithjpa.domain;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
@@ -18,6 +15,10 @@ public class Tour implements Serializable {
     @Id
     @GeneratedValue
     public Integer id;
+
+    @ManyToOne
+    @JoinColumn
+    public TourPackage tourPackage;
 
     @Column
     public String title;
@@ -33,6 +34,12 @@ public class Tour implements Serializable {
 
     @Column
     public String keyword;
+
+    @Column
+    public Difficulty difficulty;
+
+    @Column
+    public Region region;
 
     public Tour(String title, String description, Integer price, String duration, String keyword) {
     }
