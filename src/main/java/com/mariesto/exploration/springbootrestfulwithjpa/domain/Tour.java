@@ -1,8 +1,6 @@
 package com.mariesto.exploration.springbootrestfulwithjpa.domain;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,9 +9,10 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
-@Getter
-@Setter
+@Data
+@AllArgsConstructor
 @NoArgsConstructor
+
 public class Tour implements Serializable {
 
     @Id
@@ -35,4 +34,6 @@ public class Tour implements Serializable {
     @Column
     public String keyword;
 
+    public Tour(String title, String description, Integer price, String duration, String keyword) {
+    }
 }
