@@ -25,4 +25,10 @@ public class TourPackage implements Serializable {
 
     @OneToMany(mappedBy = "tourPackage")
     private List<TourPackage> tourPackages;
+
+    public TourPackage(String code, String name) {
+        super();
+        this.code = code;
+        this.name = name;
+    }
 }

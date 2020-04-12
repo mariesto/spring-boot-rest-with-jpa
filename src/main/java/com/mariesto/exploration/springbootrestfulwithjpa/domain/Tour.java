@@ -33,7 +33,7 @@ public class Tour implements Serializable {
     public String duration;
 
     @Column
-    public String keyword;
+    public String keywords;
 
     @Column
     public Difficulty difficulty;
@@ -41,6 +41,13 @@ public class Tour implements Serializable {
     @Column
     public Region region;
 
-    public Tour(String title, String description, Integer price, String duration, String keyword) {
+    public Tour(String title, String description, Integer price, String duration, String keywords, Difficulty difficulty, Region region) {
+        this.title = title;
+        this.description = description;
+        this.price = price;
+        this.duration = duration;
+        this.keywords = keywords;
+        this.difficulty = difficulty;
+        this.region = region;
     }
 }

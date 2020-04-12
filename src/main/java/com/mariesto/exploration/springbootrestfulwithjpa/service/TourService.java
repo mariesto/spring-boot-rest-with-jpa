@@ -24,13 +24,13 @@ public class TourService {
         this.tourPackageRepository = tourPackageRepository;
     }
 
-    private Tour createTour(String title, String description, Integer price, String duration, String keyword, String tourPackageCode, Difficulty difficulty, Region region) throws Exception {
+    private Tour createTour(String title, String description, Integer price, String duration, String keywords, String tourPackageCode, Difficulty difficulty, Region region) throws Exception {
         TourPackage tourPackage = tourPackageRepository.getOne(tourPackageCode);
         if(ObjectUtils.isEmpty(tourPackage)){
             throw new Exception("Tour Package does not exist");
         }
 
-        return tourRepository.save(new Tour(title, description, price, duration, keyword));
+        return tourRepository.save(new Tour(title, description, price, duration, keywords, difficulty, region));
     }
 
     private Iterable<Tour> lookup(){
