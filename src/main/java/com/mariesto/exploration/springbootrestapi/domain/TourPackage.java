@@ -1,6 +1,5 @@
-package com.mariesto.exploration.springbootrestfulwithjpa.domain;
+package com.mariesto.exploration.springbootrestapi.domain;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -13,7 +12,6 @@ import java.util.List;
 
 @Entity
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 public class TourPackage implements Serializable {
 
@@ -24,10 +22,9 @@ public class TourPackage implements Serializable {
     private String name;
 
     @OneToMany(mappedBy = "tourPackage")
-    private List<TourPackage> tourPackages;
+    private List<Tour> tours;
 
     public TourPackage(String code, String name) {
-        super();
         this.code = code;
         this.name = name;
     }

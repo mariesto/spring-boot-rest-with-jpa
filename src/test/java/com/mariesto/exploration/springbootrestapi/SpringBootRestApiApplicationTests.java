@@ -1,10 +1,10 @@
-package com.mariesto.exploration.springbootrestfulwithjpa;
+package com.mariesto.exploration.springbootrestapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootRestfulWithJpaApplicationTests {
+class SpringBootRestApiApplicationTests {
 
 	@Test
 	void contextLoads() {

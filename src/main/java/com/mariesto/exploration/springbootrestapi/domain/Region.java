@@ -1,4 +1,4 @@
-package com.mariesto.exploration.springbootrestfulwithjpa.domain;
+package com.mariesto.exploration.springbootrestapi.domain;
 
 public enum Region {
     CENTRAL_COAST("Central Coast") ,

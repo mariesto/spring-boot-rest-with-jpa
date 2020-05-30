@@ -1,0 +1,52 @@
+[
+  {
+    "packageType": "Backpack Cal",
+    "title": "Big Sur Retreat",
+    "description": "Big Sur is big country that takes you to the most majestic part of the Pacific Coast and show you secret trails and spectacular scenery.",
+    "length": "2 days",
+    "price": 750,
+    "keywords": "Hiking, National Parks, Big Sur",
+    "difficulty": "MEDIUM",
+    "region": "Central Coast"
+  },
+  {
+    "packageType": "Backpack Cal",
+    "title": "The Death Valley Survivor's Trek",
+    "description": "Need more of a challenge? Take this tour to the hottest place in North America: Death Valley. Due to extreme temperatures (120 degrees and higher) in the summer months, this tour is only offered November through April.",
+    "length": "3 days",
+    "price": 250,
+    "keywords": "Valley, National Parks, Camping",
+    "difficulty": "DIFFICULT",
+    "region": "Northern California"
+  },
+  {
+    "packageType": "Taste of California",
+    "title": "A Week of Wine",
+    "description": "Immerse yourself in the culture and lifestyle of a California winery. Spend 5 days in your private guest villa at the Stockbridge Winery, located in scenic Sonoma. You'll spend your days wandering the vineyards, touring the presses and cellars, and assisting staff in making America's favorite wine. Enjoy Tuscan-style meals served al fresco, overlooking the gorgeous countryside. Day trips include dinner in Sausalito, hiking in the redwood forests, and lunch in downtown San Francisco.",
+    "difficulty": "EASY",
+    "length": "5 days",
+    "price": 850,
+    "region": "Napa/Sonoma Counties",
+    "keywords": "Winery, hiking, relaxing, cooking, Napa Valley"
+  },
+  {
+    "packageType": "Snowboard Cali",
+    "title": "Ski Lake Tahoe",
+    "description": "Ski Lake Tahoe takes you on a 5 day, 4 night tour of the best slopes this side of Colorado. Included are 5 day lift tickets at Squaw Valley Resort, host of 1960 Winter Olympics, and home to over 170 runs on over 4000 acres of wilderness. Snow bunnies will rejoice but this tour is perfect for families and \"town bunnies\" alike. Accommodations are provided at the base of the slopes at The Village at Squaw Valley. Après-ski, enjoy relaxing in your private condo, or take advantage of the billiards room, the movie screening area, or one of the outdoor hot tubs. The Village has over 30 shops, restaurants and bars, offering everything from contemporary Irish cuisine to sushi. Enjoy wine tasting or luxuriate at the Trilogy Spa. Kids can try tubing, take on the climbing wall, or try the Skyjump, bouncing 25 feet in the air on giant trampolines.",
+    "difficulty": "DIFFICULT",
+    "length": "4 days",
+    "price": 1100,
+    "region": "Northern California",
+    "keywords": "Skiing, Snowboarding, Cabin, Hiking, Mountains"
+  },
+  {
+    "packageType": "Kids California",
+    "title": "Eco-Tour",
+    "description": "At Explore California, we strive to have all our tours be ecologically sound, by serving organic food, using low emissions vehicles, and working with small businesses, but this tour is designed specifically to explore why we take those measures. This 3-day trip has families in mind, but is great for any outdoor enthusiast/activist. The first day, you'll kayak the creeks surrounding Lake Casitas in Ventura County, all the way to the ocean. A victim of drought and mismanagement, it is now federally protected and you can watch it coming back to life. The first night will be spent at the Ojai Foundation, in your choice of a yurt or cabin. The second day is spent on an organic farm in Ojai, California, touring the grounds and learning about organic farming methods. Spend a night in town at a kid and pet friendly bed and breakfast. The third day, you'll travel up the coast to Santa Barbara to visit the botanical gardens and Natural History Museum and learn about California's endangered species. Before you leave, take a guided hiked of the foothills above the coast. If nothing else, the views will leave a lasting impression on you of just how valuable the environment is.",
+    "difficulty": "MEDIUM",
+    "length": "3 days",
+    "price": 750,
+    "region": "Southern California",
+    "keywords": "Boating, Farming, Animals, California History, Museum, Eco Tour"
+  }
+]
